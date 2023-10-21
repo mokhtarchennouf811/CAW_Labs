@@ -1,0 +1,33 @@
+
+1-  mkdir learn_git
+2-  cd learn_git
+3- touch three.txt
+
+4- git init
+
+git add three.txt
+
+
+git config --global user.email "mokhtar.chennouf@univ-constantine2.dz"
+
+git config --global user.name "mokh"
+
+git commit -m "three.txt added"
+
+
+git log
+
+
+touch four.txt
+
+git add four.txt
+
+git commit -m "added four.txt"
+
+rm three.txt
+
+git add three.txt
+
+git commit -m "delete three.txt"
+
+git log
