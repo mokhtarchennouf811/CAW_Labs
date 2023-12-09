@@ -1,0 +1,166 @@
+/* styles.css */
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.task-list {
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center; /* Center the text within the title class */
+}
+
+.task {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s;
+    position: relative;
+}
+
+.task:hover {
+    transform: scale(1.02);
+}
+
+.task-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.task-info:hover {
+    background-color: #f0f0f0;
+}
+
+.task-name {
+    font-weight: bold;
+}
+
+.task button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subtasks {
+    margin-top: 10px;
+}
+
+.subtask {
+    margin: 5px 0;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.subtask:hover {
+    background-color: #f0f0f0;
+}
+
+.subtask .done-button {
+    background-color: #4caf50; /* Change this to the desired green color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none; /* Remove the default focus outline */
+}
+
+.subtask.done {
+    text-decoration: none; /* Remove line-through style */
+    background-color: #dff0d8; /* You can keep or remove this background color as needed */
+}
+
+.subtask.done > span {
+    display: inline-block;
+    /*margin-left: 10px;*/
+}
+
+
+.add-subtask {
+    margin-top: 10px;
+}
+
+.add-subtask input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-subtask button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: #5bc0de;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new-task-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-task-form input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.new-task-form button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: #5bc0de;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.task.selected {
+    background-color: #e0f7fa;
+}
+
+.subtask-name {
+    flex-grow: 1;
+}
+
+.done-button {
+    margin-left: 10px; /* Adjust the margin as needed */
+    text-decoration: none; /* Remove line-through for the "Undo" button */
+}
