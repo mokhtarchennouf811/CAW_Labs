@@ -1,0 +1,77 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/html.png",
+      "title": "HTML",
+      "description": "HTML (Hypertext Markup Language) is a standardized markup language with specific tags and syntax. I have experience about 3 years of using HTML 5"
+    },
+    {
+      "id": "2",
+      "src": "./img/css-3.png",
+      "title": "CSS",
+      "description": "CSS, or Cascading Style Sheets, is a styling language used to describe the presentation and layout of HTML (or XML) documents on the web . I start using it about 3 years ago  "
+    },
+    {
+      "id": "3",
+      "src": "./img/react.png",
+      "title": "REACT JS",
+      "description": "React, is a JavaScript library for building user interfaces , this is my first year on it and i m trying to be better and better."
+    },
+    {
+      "id": "4",
+      "src": "./img/bootstrap.png",
+      "title": "Bootstrap",
+      "description": "Bootstrap is a popular open-source front-end framework for building responsive and mobile-first websites , i have experience about 6 months of using it."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/fb.png",
+      "title": "facebook clone ",
+      "description": "facebook clone is one from amazing project that i try to do , this project give me a lot of experience specially in react js.",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/ig.png",
+      "title": "instagram clone",
+      "description": "instagram clone is one from amazing project that i try to do , this project give me a lot of experience.",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/gitt.png",
+      "title": "Caw Labs",
+      "description": "Caw Labs are from my best learning projects ,and i'm still working on it to make it better and better. ",
+      "link": "View In Github"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "kendouci",
+      "author_designation": "yassir"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "badrou ",
+      "author_designation": "zargou phone"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "ahmed",
+      "author_designation": "yalidine"
+    }
+  ]
+}
